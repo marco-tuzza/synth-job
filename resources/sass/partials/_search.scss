@@ -1,0 +1,61 @@
+.container-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .search {
+        display: flex;
+        width: 100%;
+
+        input {
+            margin-right: 30px;
+        }
+
+        span {
+            margin-right: 30px;
+        }
+    }
+}
+
+.job-container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    .job {
+        padding: 50px;
+        width: 40%;
+        background-color: #292a2c;
+        transition: 0.5s;
+        margin-right: calc(20% - 125px);
+        margin-bottom: 50px;
+
+        a {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                margin: 10px 0px;
+            }
+    
+            .job-element-title {
+                font-size: 25px;
+                color: $main;
+            }
+    
+            .job-element-content {
+                font-size: 18px;
+                color: #bfbfbf;
+            }
+        }    
+
+        a:hover {
+            text-decoration: none;
+        }
+    }
+
+    .job:hover {
+        box-shadow:  5px 5px 14px #111518,                                          -5px -5px 14px #45555e;
+}
+}
+

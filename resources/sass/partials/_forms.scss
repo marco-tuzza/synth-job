@@ -1,0 +1,65 @@
+
+.form-container {
+    height: 100%;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+
+    i {
+        color: $main;
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    button {
+        margin: 10px 0px;
+    }
+}
+
+.card {
+    padding: 40px;
+    width: 60%;
+    border-radius: 0;
+    border: none;
+    background: #292a2c;
+        h2 {
+            color: $main;
+        }
+
+        .card-body{
+        background-color: #292a2c;
+        border-color: none;
+        label {
+            color: #afadab;
+        }
+
+        input {
+            background-color: #242424;
+            border-color: black;
+            color: #ffffff;
+        }
+
+        select {
+            background-color: #242424;
+            border-color: black;
+            color: #ffffff;
+        }
+    }
+
+    textarea {
+        background-color: #242424;
+        border-color: black;
+        color: #ffffff;
+    }
+
+    textarea:focus {
+        background-color: #242424;
+        border-color: black;
+        color: #ffffff;
+    }
+}
+
+

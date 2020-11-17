@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'partials/_welcome';
+
+@import 'partials/_choice';
+
+@import 'partials/_forms';
+
+@import 'partials/_profile';
+
+@import 'partials/_search';
+
+@import 'partials/_job';

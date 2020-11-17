@@ -1,0 +1,111 @@
+.profile-container {
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .profile-title {
+        color: $main;
+        font-size: 50px;
+    }
+
+    .card-profile {
+        width: 60%;
+        height: 100%;
+        color: white;
+        padding: 25px;
+        margin-bottom: 50px;
+    
+        h3 {
+            margin-top: 20px;
+        }
+    
+        h2 {
+            color: $main;
+        }
+
+        .personal-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 30px;
+
+            .personal-profile {
+                margin-right: 50px;
+                margin-bottom: 30px;
+
+                .personal-title {
+                    font-size: 20px;
+                }
+
+                .personal-content {
+                    font-size: 18px;
+                    color: #BFBFBF;
+                    display: block;
+                }
+            }
+        }
+    
+        .profile-element {
+            width: 100%;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            display: flex;
+            flex-direction: column;
+            padding: 20px 0px;
+            margin: 20px 0px;
+
+            span {
+                color: #BFBFBF;
+                font-size: 18px
+            }
+        
+            .profile-element-title {
+                font-size: 25px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+
+        .profile-competence-container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0px;
+
+            .profile-competence {
+                background-color: #37474f;
+                border-radius: 10px;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                margin-right: 30px;
+                margin-bottom: 30px;
+
+                span {
+                    font-weight: bold;
+                }
+
+                .level-1 {
+                    color: #A41726;
+                }
+
+                .level-2 {
+                    color: #fed23b;
+                }
+
+                .level-3 {
+                    color:#37782c;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

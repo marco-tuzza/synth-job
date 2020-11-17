@@ -1,0 +1,95 @@
+body {
+    background: #181818;
+
+    .dropdown-toggle::after {
+        display: none;
+        
+    }
+
+    .dropdown-menu {
+        background-color: $main;
+        padding: 0;
+
+        .dropdown-item {
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+        }
+
+        .dropdown-item:hover {
+            color: $main;
+        }
+    }
+
+    .navbar {
+        background-color: #202020;
+    }
+    
+    .logo-img {
+        height: 40px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: $main;
+        font-size: 18px;
+    }
+
+    .container-title {
+        width: 100%;
+        height: calc(100vh - 70px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        form {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+
+            span.algolia-places {
+                width: 30%;
+                input {
+                    width: 95%;
+                }
+            }
+
+            input {
+                width: 30%;
+                margin-left: 20px;
+            }
+        }
+
+        h1 {
+            max-width: 100%;
+            color: white;
+            font-size: 60px;
+            font-family: $font-family-sans-serif;
+            overflow: hidden;
+            border-right: .15em solid $main;
+            white-space: nowrap;
+            animation: 
+              typing 3.5s steps(40, end),
+              blink-caret .75s step-end infinite;
+        
+            span {
+                color: $main;
+            }
+        }
+         
+          @keyframes typing {
+            from { width: 0 }
+            to { width: 85% }
+          }
+          
+          @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: $main; }
+          }
+
+    }
+    
+}
+
+
